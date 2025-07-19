@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-color: rgb(1, 14, 34);
+}
+
+
+/* --------- nav --------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    background-color: rgb(1, 14, 34);
+    padding: 20px;
+    width: 100%;
+    color: white;
+    border-bottom: 1.3px solid white;
+}
+
+.left {
+    margin-left: 8%;
+}
+
+.left h1 {
+    font-size: 38px;
+}
+
+.left span {
+    background-color: #FFC107;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-right: -3%;
+}
+
+.right a {
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right a:hover {
+    text-decoration: underline;
+    color: #FFC107;
+}
+
+.butt button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    margin-top: -10px;
+    background-color: #FFC107;
+    margin-right: 15px;
+}
+
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+
+.Trin-over {
+    min-height: 100vh;
+    width: 100%;
+
+    padding: 15px;
+}
+
+.Trin-top {
+    min-height: 90vh;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.Trin-Title {
+    display: flex;
+    justify-content: center;
+    color: #FFC107;
+    font-size: 30px;
+
+}
+
+.Trin-content {
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 16px; */
+    padding: 10px;
+    /* background-color: lightseagreen; */
+}
+
+/* ------- Trin-left ------ */
+.Trin-left {
+    height: 420px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+.Trin-left p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+.Trin-left p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.Tri-button {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    width: 80%;
+    
+
+}
+
+.Tri-button a {
+    padding: 13px 55px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: #FFC107;
+    color: blue;
+    border: none;
+    text-decoration: none;
+}
+
+/* -------- Trin-right -------- */
+.Trin-right {
+    height: 400px;
+    width: 350px;
+}
+
+.Trin-right img {
+    height: 390px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: -8px 12px 3px #FFC107;
+}
+
+/* ------ Trin-mid ------ */
+.Trin-mid {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.Trin-mid marquee h3 {
+    display: inline;
+}
+
+.Trin-mid marquee {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* --------- Trin-down ---------- */
+.Trin-down {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 10%; */
+
+}
+
+.allbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+.box:hover {
+    scale: 1.1;
+}
+
+@keyframes lefts {
+    from {}
+
+    to {}
+}
+
+.box1st,
+.box2nd,
+.box3rd,
+.box4th {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.box {
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 5px;
+    animation: anime linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.box1 {
+    background-color: #fdfdfd;
+    border: 2px solid black;
+    color: #000000;
+    padding: 7px;
+    text-decoration: none;
+
+}
+
+.box2 {
+    background-color: #FFC107;
+    padding: 7px;
+    border: 2px solid black;
+}
+
+/* Footer  */
+
+
+footer {
+    background-color: rgb(20, 35, 63);
+    color: #FFC107;
+}
+
+.foot-top {
+    padding: 30px;
+    color: aliceblue;
+}
+
+.foot-top span {
+    background-color: #FFC107;
+    color: aliceblue;
+}
+
+.foot-over {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.foot-link,
+.foot-social,
+.foot-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+
+.foot-link a,
+.foot-social a,
+.foot-contact a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.foot-link a:hover {
+    scale: 1.1;
+}
