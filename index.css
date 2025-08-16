@@ -562,6 +562,19 @@ footer {
     scale: 1.1;
 }
 
+.footerterms{
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   
+}
+
+.footerterms a{
+    color: white;
+    text-decoration: none;
+}
+
+
 /* --------- responsive ---------- */
 @media only screen and (min-width:930px) and (max-width:1024px) {
     nav {
@@ -761,4 +774,5 @@ footer {
         padding: 10px 10px;
         width: 150px;
     }
+
 }
